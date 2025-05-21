@@ -15,6 +15,7 @@ public class PyramidOfGiza{
 	double totalWeightPerHour = (totalWeightPerMinute * 60);
 	double totalWeightPerYear = ((totalWeightPerHour * 24) * 360);
 
+	System.out.println("The weight of 'The pyramid of giza' on a 24 hour basis for 20 years");
 	System.out.printf("The weight per minute is %.2f tons.%n", totalWeightPerMinute);
 	System.out.printf("The weight per hour is %.2f tons.%n", totalWeightPerHour);
 	System.out.printf("The weight per year is %.2f tons.%n", totalWeightPerYear);
